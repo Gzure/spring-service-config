@@ -1,0 +1,14 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://eureka-server:8761/eureka/
+server:
+  port: 8764
+spring:
+  application:
+    name: service2
+  zipkin:
+    base-url: http://server-zipkin:9411
+feign:
+  hystrix:
+    enabled: ture
