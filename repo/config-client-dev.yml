@@ -12,15 +12,14 @@ spring:
       discovery:
         enabled: true
         serviceId: config-server
-
-spring:
   rabbitmq:
     host: 10.10.53.127
     port: 5672
     username: pica8
-    password: pica8
+    password: pica8 
 
 management:
   security:
     enabled: false
 
+foo: foo version 3
