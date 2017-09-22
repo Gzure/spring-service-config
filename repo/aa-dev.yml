@@ -24,4 +24,3 @@ management:
   security:
     enabled: false
 
-foo: foo version 3
